@@ -1,0 +1,12 @@
+div.pclass{position:absolute;width:50%;height:50%}
+div.corner_tl{top:0;left:0}
+div.corner_tr{top:0;right:0}
+div.corner_bl{bottom:0;left:0}
+div.corner_br{bottom:0;right:0}
+
+div.profile{position:relative;height:90%;width:90%;margin:2% 3%}
+div.profile div.image{background:url("img/blank_profile_pic.jpg") center;background-size:cover;width:30%;height:100%;float:left;margin-right:5%}
+div.profile div.text-box{}
+div.profile div.text-box h2{font-size:200%;margin-bottom:5%}
+div.profile div.text-box p{margin-bottom:2%}
+div.profile div.text-box .button{position:absolute;right:0;bottom:0;width:60%}

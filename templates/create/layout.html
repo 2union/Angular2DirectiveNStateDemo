@@ -1,0 +1,14 @@
+<div class="bg" [ngClass]="[backgroundClass]">
+  <div class="box-wrap">
+    <div class="pclass" *ngFor="let profileType of profileTypes" [ngClass]="[profileType.class, profileType.alias]" [changeBackground]="profileType.alias">
+      <div class="profile">
+        <div class="image"></div>
+        <div class="text-box">
+          <h2>{{ profileType.title}}</h2>
+          <p>{{ profileType.description}}</p>
+          <a href="#" class="button white red-bg white-border">Выбрать</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
